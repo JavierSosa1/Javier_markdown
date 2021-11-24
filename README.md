@@ -24,3 +24,15 @@ git pull
 
 [comment]: <> (Crea el archivo)
 touch .gitignore
+
+[comment]: <> (Crear un tag)
+git tag
+
+[comment]: <> (Visualiza)
+git log
+
+[comment]: <> (Tabla con enlaces a repositorios de compañeros)
+| Nombres             | Enlaces GitHub |
+| :------------------ | ---------------------------------------------: | 
+| Raul Lavin          |  https://github.com/raullavin/RaulLavin_Markdown                                                     |
+| Alejandro Ceballos  |  https://github.com/daw203/Alejandro_Markdown  |
