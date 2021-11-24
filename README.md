@@ -32,7 +32,23 @@ git tag
 git log
 
 [comment]: <> (Tabla con enlaces a repositorios de compañeros)
-| Nombres             | Enlaces GitHub |
-| :------------------ | ---------------------------------------------: | 
-| Raul Lavin          |  https://github.com/raullavin/RaulLavin_Markdown                                                     |
-| Alejandro Ceballos  |  https://github.com/daw203/Alejandro_Markdown  |
+| Nombres             | Enlaces GitHub                                   |
+| :------------------ | ------------------------------------------------:| 
+| Raul Lavin          |  https://github.com/raullavin/RaulLavin_Markdown |
+| Alejandro Ceballos  |  https://github.com/daw203/Alejandro_Markdown    |
+
+[comment]: <> (Crea una rama y la posiciona)
+git checkout -b rama-Javier
+
+[comment]: <> (Subir cambios al repositorio remoto de una rama)
+git push origin rama-Javier
+
+[comment]: <> (Realizar un merge)
+git merge rama-Javier
+
+[comment]: <> (Cambiar entre ramas)
+git checkout rama-Javier
+git checkout main
+
+[comment]: <> (Borrar rama)
+git branch -d rama-Javier
